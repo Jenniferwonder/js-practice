@@ -1,4 +1,6 @@
-## 项目介绍 Project Brief
+## JS-Project
+
+### ⭐Number Guessing Game
 
 A Number Guessing Game based on vanilla JS, HTML, CSS, to enhance developer's fundamental knowledge and skills in JS, HTML, CSS.
 
@@ -34,7 +36,7 @@ DEMO Link: TODO
   - [[Conditionals]]
 - User can see previous incorrect guesses
   - [[String]]
-- Each User can guess at most 10 times each round before getting the correct answer.
+- Each user can guess at most 10 times each round before getting the correct answer.
   - [[Operators]]
 - When out of chance, the user will receive a message showing the game is over and will not be able to continue the game.
 - When game is over, the user can click a button to replay the game.
