@@ -2,11 +2,11 @@
 
 A **number guessing game** based on vanilla JS, HTML, CSS.
 
-#### 1. 项目目的 Purpose
+## 项目目的 Purpose
 
 Enhance fundamental knowledge and skills in JS, HTML, CSS.
 
-#### 2. 效果展示 DEMO
+## 效果展示 DEMO
 
 ![](https://cdn.nlark.com/yuque/0/2022/png/29677165/1670313507292-4588a821-b3ac-4f65-80db-83dd5b27b178.png)
 
