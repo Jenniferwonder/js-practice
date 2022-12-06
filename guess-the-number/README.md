@@ -4,7 +4,7 @@
 
 ⭐A Number Guessing Game based on vanilla JS, HTML, CSS, to enhance developer's fundamental knowledge and skills in JS, HTML, CSS.
 
-## 效果展示 DEMO
+## 效果展示 Demo
 
 DEMO Link: TODO
 
