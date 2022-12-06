@@ -1,14 +1,14 @@
 ## 项目介绍 Project Brief
 
-A **number guessing game** based on vanilla JS, HTML, CSS.
-
-## 项目目的 Purpose
-
-Enhance fundamental knowledge and skills in JS, HTML, CSS.
+A Number Guessing Game based on vanilla JS, HTML, CSS, to enhance developer's fundamental knowledge and skills in JS, HTML, CSS.
 
 ## 效果展示 DEMO
 
-![](https://cdn.nlark.com/yuque/0/2022/png/29677165/1670313507292-4588a821-b3ac-4f65-80db-83dd5b27b178.png)
+DEMO Link: TODO
+
+<iframe width="900" height="300" src="https://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game" loading="lazy"></iframe>
+DEMO
+![[Pasted image 20221206150239.png]]
 
 ## 技术栈 Tech Stack
 
