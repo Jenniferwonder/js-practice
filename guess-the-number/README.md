@@ -1,10 +1,8 @@
-# JS-Project
-
 ## 项目介绍 Project Brief
 
-### ⭐Number Guessing Game
+### Number Guessing Game
 
-A Number Guessing Game based on vanilla JS, HTML, CSS, to enhance developer's fundamental knowledge and skills in JS, HTML, CSS.
+⭐A Number Guessing Game based on vanilla JS, HTML, CSS, to enhance developer's fundamental knowledge and skills in JS, HTML, CSS.
 
 ## 效果展示 DEMO
 
