@@ -1,4 +1,6 @@
-## JS-Project
+# JS-Project
+
+## 项目介绍 Project Brief
 
 ### ⭐Number Guessing Game
 
