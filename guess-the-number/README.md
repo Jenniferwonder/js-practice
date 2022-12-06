@@ -1,8 +1,6 @@
-# Guess the Number
-
 ## 项目介绍 Project Brief
 
-A number guessing game based on vanilla JS, HTML, CSS.
+A **number guessing game** based on vanilla JS, HTML, CSS.
 
 #### 1. 项目目的 Purpose
 
