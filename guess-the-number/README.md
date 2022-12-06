@@ -12,24 +12,24 @@ DEMO Link: TODO
 
 #### 1. Guess a random number
 
-- User can enter and submit any number from 1-100 to match the random number generated behind the scene. ✅
+- [x] User can enter and submit any number from 1-100 to match the random number generated behind the scene.
 
 #### 2. Get Clue and Result
 
-- When the number was submitted, the user will get a message showing whether the guess is lower or higher or correct. ✅
+- [x] When the number was submitted, the user will get a message showing whether the guess is lower or higher or correct.
 
 #### 3. Submit History
 
-- User can see previous incorrect guesses. ✅
+- [x] User can see previous incorrect guesses.
 
 #### 4. Limited Chance
 
-- Each user can guess at most 10 times each round before getting the correct answer. ✅
-- When out of chance, the user will receive a message showing the game is over and will not be able to continue the game. ✅
+- [x] Each user can guess at most 10 times each round before getting the correct answer.
+- [x] When out of chance, the user will receive a message showing the game is over and will not be able to continue the game.
 
 #### 5. Replay Button
 
-- When game is over, the user can click a button to replay the game. ✅
+- [x] When game is over, the user can click a button to replay the game.
 
 ## 技术栈 Tech Stack
 
