@@ -8,23 +8,6 @@
 
 DEMO Link: TODO
 
-## 技术栈 Tech Stack
-
-#### 1. [[HTML]]
-
-- [[HTML-Link]]
-- [[Input and label]]
-- [[Button]]
-
-#### 2. [[JavaScript]]
-
-- [[Value and Variables]]
-- [[Math]]
-- [[Operators]]
-- [[Conditionals]]
-- [[String]]
-- [[DOM]]
-
 ## 核心功能 Core Functions
 
 - User can enter and submit any number from 1-100 to match the random number generated behind the scene.
@@ -43,6 +26,23 @@ DEMO Link: TODO
   - [[DOM]]
   - [[Button]]
   - [[Input and label]]
+
+## 技术栈 Tech Stack
+
+#### 1. [[HTML]]
+
+- [[HTML-Link]]
+- [[Input and label]]
+- [[Button]]
+
+#### 2. [[JavaScript]]
+
+- [[Value and Variables]]
+- [[Math]]
+- [[Operators]]
+- [[Conditionals]]
+- [[String]]
+- [[DOM]]
 
 ## 参考资料 Reference
 
