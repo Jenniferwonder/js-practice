@@ -6,10 +6,6 @@ A Number Guessing Game based on vanilla JS, HTML, CSS, to enhance developer's fu
 
 DEMO Link: TODO
 
-<iframe width="900" height="300" src="https://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game" loading="lazy"></iframe>
-DEMO
-![[Pasted image 20221206150239.png]]
-
 ## 技术栈 Tech Stack
 
 #### 1. [[HTML]]
