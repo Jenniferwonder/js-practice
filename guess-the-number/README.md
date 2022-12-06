@@ -8,7 +8,7 @@ Enhance fundamental knowledge and skills in JS, HTML, CSS.
 
 #### 2. 效果展示 DEMO
 
-![[Pasted image 20221206150239.png]]
+![](https://cdn.nlark.com/yuque/0/2022/png/29677165/1670313507292-4588a821-b3ac-4f65-80db-83dd5b27b178.png)
 
 ## 技术栈 Tech Stack
 
