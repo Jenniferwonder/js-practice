@@ -10,7 +10,7 @@ DEMO Link: TODO
 
 ## 核心功能 Core Functions
 
-#### 1. Guess a random number
+#### 1. Guess a Random Number
 
 - [x] User can enter and submit any number from 1-100 to match the random number generated behind the scene.
 
