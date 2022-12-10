@@ -60,7 +60,6 @@ const rollDice = function () {
 		if (diceNum !== 1) {
 			// Add number to the current score
 			currentScore += diceNum;
-			console.log(`current: ${currentScore} `);
 			document.getElementById(`current--${activePlayer}`).textContent =
 				currentScore;
 		} else {
@@ -78,9 +77,13 @@ const holdScore = function () {
 		document.getElementById(`current--${activePlayer}`).textContent = 0;
 
 		// Check winner
-		if (scores[activePlayer - 1] >= 100) {
-			document.querySelector(".player--active").classList.add("player--winner");
+		if (scores[activePlayer - 1] >= 10) {
 			playing = false;
+			dice.classList.add("hidden");
+			document.querySelector(".player--active").classList.add("player--winner");
+		} else {
+			// Switch to the next player
+			switchPlayer();
 		}
 	}
 };
