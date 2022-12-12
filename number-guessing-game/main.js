@@ -50,15 +50,15 @@ function setGameOver() {
 
 function resetGame() {
 	guessCount = 1;
+	key = Math.floor(Math.random() * 100) + 1;
+	guesses.textContent = "";
+	guessField.value = "";
 	guessField.disabled = false;
 	guessSubmit.disabled = false;
 	lastResult.textContent = "";
 	lastResult.style.backgroundColor = "white";
-	guesses.textContent = "";
 	document.body.removeChild(resetButton);
-	guessField.value = "";
 	guessField.focus();
-	key = Math.floor(Math.random() * 100) + 1;
 }
 
 guessSubmit.addEventListener("click", checkGuess);
