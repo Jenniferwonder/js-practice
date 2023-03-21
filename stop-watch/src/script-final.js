@@ -12,15 +12,16 @@ let time = 0;
 let msec = 0;
 let sec = 0;
 let min = 0;
+let count = 0;
 let interval = null;
 let record = "00:00:00";
-let count = 0;
 
 // Event Listeners
 btnStart.addEventListener("click", start);
 btnPause.addEventListener("click", pause);
 btnReset.addEventListener("click", reset);
 btnLap.addEventListener("click", lap);
+
 // Update the Timer
 function tick() {
 	time += 10;
@@ -49,7 +50,6 @@ function pause() {
 		interval = null;
 		btnStart.classList.remove("hidden");
 		btnPause.classList.add("hidden");
-		btnReset.classList.remove("hidden");
 	}
 }
 // Record the time
@@ -72,7 +72,6 @@ function reset() {
 	count = 0;
 	time = 0;
 	interval = null;
-	record = [];
 	recBox.innerHTML = "";
 	timeEl.textContent = "00:00:00";
 	// recEl.textContent = "";
