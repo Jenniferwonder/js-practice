@@ -3,8 +3,8 @@ Title: Number Guessing Game
 tags: JavaScript
 Type: A
 DateStarted: 2022-12-06
-DateModified: 2022-12-12
-status: null
+DateModified: 2023-11-29
+status: 
 EST: NaN
 LeadTime: NaN
 Page-D: NaN
@@ -45,11 +45,9 @@ Demo Link:
 
 - [x] When game is over, the user can click a button to replay the game.
 
-## 流程图 Flow Chart
 
-![[A-JS Number Guessing Game 2022-12-08 09.49.04.excalidraw]]
-
-## 开发流程 Work Flow
+## 开发步骤 Steps to Develop
+- ![[A-JS Number Guessing Game 2022-12-08 09.49.04.excalidraw]]
 
 #### 1. Select needed elements
 
@@ -68,7 +66,7 @@ Demo Link:
 
 #### 4. Add Event Listeners (Call the Callback function)
 
-## 技术要点 Key Tech Points
+## 技术要点 Key Points
 
 #### 1. [[O-HTML]]
 
