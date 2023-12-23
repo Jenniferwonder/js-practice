@@ -12,5 +12,6 @@
 	"audioCues.onDebugBreak": "off",
 	"audioCues.taskCompleted": "off",
 	"audioCues.taskFailed": "off",
-	"audioCues.terminalQuickFix": "off"
+	"audioCues.terminalQuickFix": "off",
+	"liveServer.settings.port": 5501
 }
