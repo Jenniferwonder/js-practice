@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- <select>
+			<optgroup label="Fruits">
+				<option>Apple</option>
+				<option>Orange</option>
+			</optgroup>
+			<optgroup label="Vegetables">
+				<option>Carrot</option>
+				<option>Spinach</option>
+			</optgroup>
+		</select> -->
+		<!--  use the <label> element to associate a label with the <select> element -->
+		<label for="fruitVegeSelect">Choose a fruit or vegetable:</label>
+		<select id="fruitVegeSelect" name="fruits">
+			<optgroup label="Fruits">
+				<!-- [value] attribute: provides a way to associate a specific value with each option. When a user selects an option from the dropdown, the associated value is typically submitted as part of the form data -->
+				<option value="apple">Apple</option>
+				<option value="orange">Orange</option>
+			</optgroup>
+			<optgroup label="Vegetables">
+				<option value="carrot">Carrot</option>
+				<option value="spinach">Spinach</option>
+			</optgroup>
+		</select>
+	</body>
+</html>

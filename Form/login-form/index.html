@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		
+		<form action="/submit" method="post">
+			<!-- text input -->
+			<!-- name, id, placeholder, aria-label/ <label for="id-value"> -->
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" />
+			<!-- email input -->
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" />
+			<!-- tel input -->
+			<!-- <input type="tel" name="phoneNumber" /> -->
+			<!-- password input -->
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required />
+			<!-- checkbox input -->
+			<label for="subscribe">Subscribe to newsletter:</label>
+			<input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+			<!-- submit input -->
+			<!-- [value] used to specify the text that will be displayed on the submit button indicating to the user what action will be taken when the button is clicked-->
+			<input type="submit" value="Submit" />
+		</form>
+	</body>
+</html>
