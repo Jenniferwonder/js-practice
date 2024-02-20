@@ -1,0 +1,15 @@
+{
+	"name": "HiPromise",
+	"version": "1.0.0",
+	"description": "Promises/A+ 1.0 compliant",
+	"main": "promiseComplete.js",
+	"devDependencies": {
+		"promises-aplus-tests": "*"
+	},
+	"scripts": {
+		"test": "promises-aplus-tests HiPromise.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
