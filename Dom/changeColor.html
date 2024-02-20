@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM Manipulation</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+
+<div id="app"></div>
+
+<script>
+  // JavaScript DOM manipulation
+  const appDiv = document.getElementById('app');
+  const boxDiv = document.createElement('div');
+  boxDiv.className = 'box';
+  boxDiv.textContent = 'Click me';
+  
+  boxDiv.addEventListener('click', function() {
+    boxDiv.style.backgroundColor = 'blue';
+    boxDiv.textContent = 'Clicked';
+  });
+
+  appDiv.appendChild(boxDiv);
+</script>
+
+</body>
+</html>
