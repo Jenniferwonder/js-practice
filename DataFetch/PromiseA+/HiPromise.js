@@ -13,7 +13,7 @@ class HiPromise {
 		// 初始化失败处理函数队列
 		this.onRejectedCallbacks = [];
 
-		// 定义resolve方法
+		// 定义 resolve 方法
 		const resolve = (value) => {
 			// 只有在pending状态才能更改状态和值
 			if (this.status === "pending") {
