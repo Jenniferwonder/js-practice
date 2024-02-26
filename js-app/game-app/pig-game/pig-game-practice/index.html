@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+    <Link href="style.css" rel="stylesheet"></Link>
+	</head>
+	<body>
+    <div class="main">
+      <section class="player player--1 player--active">
+        <h2 class="name" id="name--1">Player 1</h2>
+        <p class="score" id="score--1"></p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--1"></p>
+        </div>
+      </section>
+  
+      <section class="player player--2">
+        <h2 class="name" id="name--2">Player 2</h2>
+        <p class="score" id="score--2"></p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--2">0</p>
+        </div>
+      </section>
+      <img src="dice-1.png" alt="dice-1" class="dice">
+      <button class="btn btn--new">🔄 New game</button>
+      <button class="btn btn--roll">🎲 Roll dice</button>
+      <button class="btn btn--hold">⬇️ Hold</button>
+    </div>
+		<script src="main.js"></script>
+	</body>
+</html>
