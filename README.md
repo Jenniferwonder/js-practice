@@ -10,20 +10,20 @@ aliases:
   - JS-Projects
 ---
 
-# JS-Projects
-
-This repo collected projects I implemented while learning JS from various sources and platforms.
+<h1 align="center">JS Practice</h1>
+<p align="center">
+  <i>This repo collected projects I implemented while learning JS from various sources and platforms.</i>
+   <br/>
+  <img width="120" src="https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/assets/202404081523310.png" />
+  <br/>
+</p>
 
 ## Simple projects
 
 - [Stop Watch](https://github.com/Jenniferwonder/js-practice/tree/main/stop-watch/)
-  - ![|275](https://cdn.nlark.com/yuque/0/2022/gif/29677165/1671015466596-c8c189fd-1b12-41a1-9d3d-057c103629b7.gif)
 - [Pig Game](https://github.com/Jenniferwonder/js-practice/tree/main/pig-game)
-  - ![202404081558738.png](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/assets/202404081558738.png)
 - [Story Generator](./silly-story-generator)
-  - ![202404081600732.png](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/assets/202404081600732.png)
 - [Number Guessing Game](./number-guessing-game/)
-  - ![202404081600747.png](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/assets/202404081600747.png)
 
 ## JS implementation
 
@@ -33,9 +33,7 @@ This repo collected projects I implemented while learning JS from various source
 ## Data fetching app
 
 - [Bankist App](./bankist)
-  - ![202404081609783.png](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/assets/202404081609783.png)
 - [Movie Fight](./movie-fight)
-  - ![202404081608174.png](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/assets/202404081608174.png)
 - [Forkify App (MVC, Sass)](./forkify-app)
 
 ## Inspiration
