@@ -1,0 +1,194 @@
+:root {
+	/* CSS HEX */
+	--primary-green-dark: #264653ff;
+	--primary-green: #2a9d8fff;
+	--primary-green-light: rgb(63, 221, 203);
+	--primary-yellow: #e9c46aff;
+	--primary-orange: #f4a261ff;
+	--primary-red: #e76f51ff;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%; /* 1 rem = 10 px */
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	padding: 3rem;
+	/* font-family: "Nunito", sans-serif; */
+	/* font-family: "Fira sans", sans-serif; */
+	font-family: "Poppins", monospace;
+	/* font-family: "Poppins", sans-serif; */
+	line-height: 1.5;
+	font-weight: 400;
+	font-size: 2rem;
+	background: var(--primary-green-dark);
+	color: #333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main {
+	width: 80%;
+	/* min-width: 70rem; */
+	max-width: 100rem;
+	padding: 3rem 0;
+	/* border-radius: 10px; */
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.recordBox {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	min-width: 40rem;
+	max-width: 70rem;
+}
+.record {
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+	width: 20%;
+	min-width: 18rem;
+	height: 5rem;
+	border-radius: 2rem;
+	box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+	margin: 1rem;
+	padding: 1rem;
+	list-style: none;
+	text-align: center;
+}
+.container {
+	border-radius: 5rem;
+	box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+	/* background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); */
+	background: var(--primary-green, #2a9d8f);
+	/* background: yellow; */
+
+	width: 100%;
+	min-width: 40rem;
+	max-width: 70rem;
+	height: 40rem;
+	/* position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding: 4rem;
+}
+.timeBox {
+	/* position: relative;
+	left: -5%;
+
+	width: 92%; */
+	text-align: center;
+
+	/* display: flex;
+	align-items: center;
+	justify-content: space-around; */
+
+	padding: 4rem 0;
+	width: 100%;
+	height: 50%;
+	padding: 1rem;
+	margin: 3rem;
+	/* display: block; */
+	/* border: 2px solid; */
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+	/* font-family: "Poppins", monospace; */
+	font-weight: 600;
+	font-size: 8rem;
+
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 5rem;
+}
+.btnBox {
+	/* background-color: greenyellow; */
+	width: 100%;
+	padding: 1rem;
+	margin: 1rem;
+	display: flex;
+	justify-content: space-around;
+	/* align-items: center; */
+	/* flex-wrap: wrap; */
+}
+.btn {
+	/* position: absolute; */
+	/* left: 50%; */
+
+	/* background: none; */
+	border: none;
+	cursor: pointer;
+	/* font-family: "Poppins", sans-serif; */
+	/* font-family: inherit; */
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	/* color: #444; */
+	/* transform: translateX(-50%); */
+	transition: all 0.2s;
+
+	/* backdrop-filter: blur(10px); */
+	/* background-color: #e9c46a; */
+	width: 14rem;
+	height: 5rem;
+	/* padding: 0.7rem 4rem;
+	margin: 1rem; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+	/* margin-right: -14rem; */
+	border-radius: 50rem;
+	box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+	/* text-align: center; */
+}
+.btn-start {
+	background: linear-gradient(
+		to top,
+		var(--primary-green-dark),
+		var(--primary-green-light)
+	);
+}
+.btn-lap {
+	/* background-color: white; */ /* ?Could be deleted*/
+	background-color: white;
+	/* border: #264653 2px solid; */
+}
+.btn-stop {
+	/* background-color: white; */ /* ?Could be deleted*/
+	background-color: rgba(63, 241, 221, 0.9);
+}
+.btn-pause {
+	/* background-color: white; */ /* ?Could be deleted*/
+	background-color: rgba(255, 122, 88, 0.9);
+}
+.btn-reset {
+	/* background-color: white; */ /* ?Could be deleted*/
+	background-color: rgba(233, 196, 106, 0.9);
+}
+.btn:active {
+	transform: translate(0%, 3px);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+.btn:focus {
+	outline: none;
+}
+/* all: unset; */
+.message {
+	font-size: 3rem;
+}
+.hidden {
+	display: none;
+}
