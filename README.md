@@ -12,61 +12,30 @@ aliases:
 
 # JS-Projects
 
-## 通用功能组件
+This repo collected projects I implemented while learning JS from various sources and platforms.
 
-- 主题切换：黑/白
-- 语言切换：中/英
-- Modal
-- Slider
-- Tab
-- Pagination
-- Infinite Scroll
-- Music Player
-- Video Player
+## Simple projects
 
-## 简单项目
+- Stop Watch
+- Pig Game
+- Story Generator
+- Number Guessing Game
 
-- [[Stop Watch]]
-- [[Pig Game]]
-- [[Story Generator]]
-- [[Number Guessing Game]]
-- [[debounce-throttle]]
+## JS implementation
 
-## 静态单页面
+- debounce-throttle
+- Promise-A+
 
-- [[Bankist Website]]
-- [[Natours]] -SASS
-- [[Trillo]] -SASS
-- [[Nexter]] -SASS
+## Data fetching app
 
-## 数据请求与交互
+- Bankist App
+- Movie Fight
+- Forkify App (MVC, Sass)
 
-- [[Bankist App]]
-- [[Movie Fight]]
-- [[Mapty App]]
-- [[Forkify App]]
-- Secret Message Sharing App
-
-## 可视化
-
-- [[Timer Clock]]- **Class, SVG**
-- [[Maze]]- Canvas API
-
-## 动态多页面（Database 方案）
-
-- E-Commerce App
-- Blog
-  - Blog-JS, jQuery
-    - [YouTube- JS, jQuery- Blog](https://www.youtube.com/watch?v=gZHjMVE_e10&t=1531s)
-    - [[jQuery]]
-  - Blog-Node.js, MongoDB
-    - [YouTube-Node.js, MongoDB- Blog](https://www.youtube.com/watch?v=1NrHkjlWVhM&list=RDCMUCFbNIlppjAuEX4znoulh0Cw&start_radio=1&t=138s)
-    - [[Node.js and Package manager]]
-  - Blog-Node.js, Firebase
-    - [GitHub - Blogging-site using HTML, CSS and JS, Node.js, and Firebase as its databse.](https://github.com/kunaal438/blogging-site)
-    - [[Firebase]]
-
-## 项目资源 Inspirations & Reference
+## Inspiration
 
 - [30 JS Projects | Wes Bos](https://courses.wesbos.com/account)
--
+
+## Special thanks
+
+- [Complete Javascript Course by Jonas Schmedtmann](https://github.com/jonasschmedtmann/complete-javascript-course)

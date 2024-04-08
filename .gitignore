@@ -1,3 +1,4 @@
 .vscode
 template
 node_modules
+private
