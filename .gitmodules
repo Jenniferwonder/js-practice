@@ -7,3 +7,6 @@
 [submodule "js-app/bankist-website"]
 	path = js-app/bankist-website
 	url = https://github.com/Jenniferwonder/bankist-website.git
+[submodule "bank-landing"]
+	path = bank-landing
+	url = https://github.com/Jenniferwonder/bank-landing.git
