@@ -14,7 +14,7 @@ aliases:
 <p align="center">
   <i>This repo collected projects I implemented while learning JS from various sources and platforms.</i>
    <br/>
-  <img width="120" src="https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/assets/202404081523310.png" />
+  <img width="120" src="https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/projects/202404081523310.png" />
   <br/>
 </p>
 
@@ -30,9 +30,16 @@ aliases:
 - [debounce-throttle](./data-fetch/debounce-throttle/)
 - [Promise-A+](./data-fetch/PromiseA+/)
 
-## Data fetching app
+## Array Practice
 
 - [Bankist App](./bankist)
+
+## IntersectionObserver API
+
+- [Bank-landing](./bank-landing/)
+
+## Data Fetching App
+
 - [Movie Fight](./movie-fight)
 - [Forkify App (MVC, Sass)](./forkify-app)
 

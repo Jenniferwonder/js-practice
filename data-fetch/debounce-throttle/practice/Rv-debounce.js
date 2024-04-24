@@ -14,17 +14,18 @@ inputText.addEventListener("input", (e) => {
 	updateDebounceText(e.target.value);
 	updateThrottleText(e.target.value);
 });
-// Rv4-20240418 Good
+// Rv5-20240424 Hard
 function debounce(cb, delay = 1000) {
 	let timeout;
 	return (...args) => {
-		clearTimeout(timeout);
+		clearInterval(timeout);
 		timeout = setTimeout(() => {
 			cb(...args);
 		}, delay);
 	};
 }
-function throttle(cb, delay = 1000) {
+
+function throttle(cb, delay) {
 	let shouldWait = false;
 	let waitingArgs;
 	const timeoutFunc = () => {
@@ -36,10 +37,88 @@ function throttle(cb, delay = 1000) {
 			waitingArgs = args;
 		}
 		cb(...args);
-		shouldWait = true;
+		let shouldWait = true;
 		setTimeout(timeoutFunc, delay);
 	};
 }
+
+// function debounce(cb, delay = 1000) {
+// 	let timeout;
+// 	return (...args) => {
+// 		clearTimeout(timeout);
+// 		timeout = setTimeout(() => {
+// 			cb(...args);
+// 		}, delay);
+// 	};
+// }
+// function throttle(cb, delay = 1000) {
+// 	let shouldWait = false;
+// 	let waitingArgs;
+// 	const timeoutFunc = () => {
+// 		cb(...waitingArgs);
+// 		setTimeout(timeoutFunc, delay);
+// 	};
+// 	return (...args) => {
+// 		if (shouldWait) {
+// 			waitingArgs = args;
+// 		}
+// 		cb(...args);
+// 		shouldWait = true;
+// 		setTimeout(timeoutFunc, delay);
+// 	};
+// }
+// function debounce(cb, delay = 1000) {
+// 	let timeout;
+// 	return (...args) => {
+// 		clearTimeout(timeout);
+// 		timeout = setTimeout(() => {
+// 			cb(...args);
+// 		}, delay);
+// 	};
+// }
+// function throttle(cb, delay = 1000) {
+// 	let shouldWait = false;
+// 	let waitingArgs;
+// 	const timeoutFunc = () => {
+// 		cb(...waitingArgs);
+// 		setTimeout(timeoutFunc, delay);
+// 	};
+// 	return (...args) => {
+// 		if (shouldWait) {
+// 			waitingArgs = args;
+// 		}
+// 		cb(...args);
+// 		shouldWait = true;
+// 		setTimeout(timeoutFunc, delay);
+// 	};
+// }
+
+// Rv4-20240418 Good
+// function debounce(cb, delay = 1000) {
+// 	let timeout;
+// 	return (...args) => {
+// 		clearTimeout(timeout);
+// 		timeout = setTimeout(() => {
+// 			cb(...args);
+// 		}, delay);
+// 	};
+// }
+// function throttle(cb, delay = 1000) {
+// 	let shouldWait = false;
+// 	let waitingArgs;
+// 	const timeoutFunc = () => {
+// 		cb(...waitingArgs);
+// 		setTimeout(timeoutFunc, delay);
+// 	};
+// 	return (...args) => {
+// 		if (shouldWait) {
+// 			waitingArgs = args;
+// 		}
+// 		cb(...args);
+// 		shouldWait = true;
+// 		setTimeout(timeoutFunc, delay);
+// 	};
+// }
 // Rv3-20240417 Good
 // function debounce(cb, delay = 1000) {
 // 	let timeout;
