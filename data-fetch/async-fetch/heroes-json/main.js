@@ -3,7 +3,7 @@ async function populate() {
 	const requestURL =
 		"https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json";
 	const request = new Request(requestURL); //? Request
-	console.log(requestURL);
+	console.log(request);
 
 	const response = await fetch(requestURL); //? fetch
 	console.log(response);

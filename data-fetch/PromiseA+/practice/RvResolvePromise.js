@@ -1,5 +1,63 @@
-// Rv-20240424 Hard
-function resolvePromise(promise2, x, resolve, reject) {
+// Rv3-20240612 Hard
+function resolvePromise(promise2,x,resolve,reject){
+	if(x===promise2){
+		return new TypeError("chaining cycle")
+	}
+	let called = false;
+	if(x !== null && typeof x === "function"|| typeof x === "object"){
+		try{
+			const then = x.then;
+			if(typeof then === "function"){
+				then.call(x,(y)=>{
+					if(called) return;
+					called = true;
+					resolvePromise(promise2,y,resolve,reject)
+				},(reason)=>{reject(reason);})
+			}else{
+				resolve(x)
+			}
+		}catch(e){
+			if(called) return;
+			called = true;
+			reject(e);
+		}
+	}else{resolve(x)}
+}
+// Rv2-20240428 Hard
+/* function resolvePromise(promise2, x, resolve, reject) {
+	if (x === promise2) {
+		return new TypeError("chaining cycle!");
+	}
+	let called = false;
+	if ((x !== null && typeof x === "function") || typeof x === "object") {
+		try {
+			const then = x.then;
+			if (typeof then === "function") {
+				then.call(
+					x,
+					(y) => {
+						if (called) return;
+						called = true;
+						resolvePromise(promise2, y, resolve, reject);
+					},
+					(reason) => {
+						reject(reason);
+					}
+				);
+			} else {
+				resolve(x);
+			}
+		} catch (e) {
+			if (called) return;
+			called = true;
+			reject(e);
+		}
+	} else {
+		resolve(x);
+	}
+} */
+// Rv1-20240424 Hard
+/* function resolvePromise(promise2, x, resolve, reject) {
 	if (x === promise2) {
 		reject(new TypeError("cycle chain detected"));
 	}
@@ -42,4 +100,4 @@ function resolvePromise(promise2, x, resolve, reject) {
 	} else {
 		resolve(x);
 	}
-}
+} */
